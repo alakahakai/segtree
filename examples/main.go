@@ -12,8 +12,8 @@ func main() {
 		return a.(int) + b.(int)
 	}
 	s, _ := segtree.NewSegmentTree(arr, f, 0)
-  v := s.GetSegment(2, 5, 0)
-  fmt.Println(v)
+	v := s.GetSegment(2, 5, 0)
+	fmt.Println(v)
 	plusOne := func(a interface{}) interface{} {
 		return a.(int) + 1
 	}
