@@ -3,7 +3,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/rayqiu/segtree"
+	"github.com/alakahakai/segtree"
 )
 
 func main() {
